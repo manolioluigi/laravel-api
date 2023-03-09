@@ -12,7 +12,7 @@ class ProjectController extends Controller
         $projects = Project::all();
         return response()->json([
             'success'       => true,
-            'projects'      => $projects
+            'results'      => $projects
         ]);
     }
     
